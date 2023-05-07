@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(23, 23, 23); */
+
+}
+body{
+    background-image: linear-gradient(#2b5876,#4e4376);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title{
+    width: 480px;
+    height: 50px;
+    /* border: 1px solid white; */
+    margin: 50px auto;
+    padding: 10px 0px;
+    text-align: center;
+}
+.title h1{
+    font-size: 38px;
+    color: white;
+}
+.slideDiv{
+    position: relative;
+    display: flex;
+    width: 500px;
+    height: 400px;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    margin: 50px auto;
+    border-radius: 8px;
+}
+.slideImg{
+    border-radius: 8px;
+    width: 800px;
+    height: 400px;
+    transition: 1.2s all ease;
+}
+.prevBtn{
+    cursor: pointer;
+    position: absolute;
+    left: 360px;
+    top: 340px;
+    font-size: 34px;
+    color: white;
+    width: 24px;
+    padding-left: 5px;
+    transition: 0.9s all ease;
+    border-radius: 5px;
+}
+.nextBtn{
+    cursor: pointer;
+    position: absolute;
+    right: 360px;
+    top: 340px;
+    font-size: 34px;
+    color: white;
+    transition: 0.9s all ease;
+    border-radius: 5px;
+    width: 24px;
+    padding-left: 3px;
+}
+.nextBtn:active{
+    background-color: white;
+    color: #4e4376;
+       transform: scale(0.9);
+
+}
+.prevBtn:active{
+    background-color: white;
+    color: #4e4376;
+       transform: scale(0.9);
+
+}
+.number{
+    position: absolute;
+    top:150px;
+    left: 215px;
+    font-size: 90px;
+    font-weight: 600;
+    z-index: 1111;
+    opacity: 0.8;
+    color: white;
+}
