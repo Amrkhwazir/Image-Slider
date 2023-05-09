@@ -34,7 +34,7 @@ body{
 }
 .slideImg{
     border-radius: 8px;
-    width: 800px;
+    width: 600px;
     height: 400px;
     transition: 1.2s all ease;
 }
@@ -84,3 +84,67 @@ body{
     opacity: 0.8;
     color: white;
 }
+
+@media(min-width: 1024px) and (max-width: 1200px){
+    .prevBtn{
+        left: 230px;
+    }
+    .nextBtn{
+        right: 230px;
+    }
+}
+
+
+@media(min-width: 768px) and (max-width:980px){
+    .prevBtn{
+        left: 100px;
+    }
+    .nextBtn{
+        right: 105px;
+    }
+}
+ 
+
+@media(min-width: 320px) and (max-width:430px){
+
+    body{
+        height: 770px;
+        width: 100%;
+       padding-left: 34px;  
+    }
+    .title{
+        /* border: 1px solid red; */
+        padding: 0px;
+        width: 200px;
+        height: 90px;
+        margin-left: 25px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+    .slideDiv{
+        width: 250px;
+        height: 300px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .slideImg{
+        width: 350px;
+        height: 300px;
+        transition: 1.8s all ease;
+    }
+
+    .prevBtn{
+        top: 290px;
+        left: 10px;
+    }
+    .nextBtn{
+        top: 290px;
+        right: 13px;
+    }
+    .number{
+        top: 100px;
+        left: 100px;
+    }
+}
+
+ 
